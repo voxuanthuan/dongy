@@ -1,0 +1,23 @@
+.nav__horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: pink;
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      margin-right: 3rem;
+    }
+  }
+  .logo {
+    margin-left: 2em;
+  }
+}
+
+@media screen and (max-width: 44em) {
+  .nav__horizontal {
+    display: none;
+  }
+}
